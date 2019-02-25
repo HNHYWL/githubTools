@@ -10,4 +10,8 @@ public class Bean2 {
         System.out.println(msg);
         myFirstBean.say();
     }
+
+    public void say2() {
+        System.out.println("hello");
+    }
 }
