@@ -7,5 +7,6 @@ import org.springframework.stereotype.Component;
 public class MyFirstBean {
     public void say() {
         System.out.println(this.getClass());
+
     }
 }
