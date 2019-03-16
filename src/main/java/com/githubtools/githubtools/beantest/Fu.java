@@ -9,6 +9,11 @@ public class Fu {
 
         System.out.println("fu "+i);
     }
+
+    public static void main(String[] args) throws IllegalAccessException, InstantiationException {
+        System.out.println("aa");
+        Fu fu = Fu.class.newInstance();
+    }
 }
 
 class Zi extends Fu {
